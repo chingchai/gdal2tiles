@@ -18,6 +18,7 @@ Extras:
 
 additional option that allows tiles to be generated in the XYZ format
 
+### **Testing**
 ```bash
 $ gdal2tiles --profile=mercator --xyz -z 8-22 nu_transparent_mosaic_group1.tif xyz-tiles -c gistnu -a 0
 Generating Base Tiles:
@@ -25,3 +26,5 @@ Generating Base Tiles:
 Generating Overview Tiles:
 0...10...20...30...40...50...60...70...80...90...100
 ```
+### **References**
+https://www.gdal.org/gdal2tiles.html
