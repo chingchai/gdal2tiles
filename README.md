@@ -25,6 +25,9 @@ Generating Base Tiles:
 0...10...20...30...40...50...60...70...80...90...100
 Generating Overview Tiles:
 0...10...20...30...40...50...60...70...80...90...100
+
+add number cpu processing
+$ gdal2tiles --profile=mercator --xyz -z 12-22 nu_transparent_mosaic_group1.tif -t NUMaptiles xyz-tiles -c gistnu -a 0 --processes=4
 ```
 ### **References**
 https://www.gdal.org/gdal2tiles.html
